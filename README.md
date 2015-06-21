@@ -51,12 +51,15 @@ Note: Storing `SimulatorLibraryOverride8` elsewhere will require editing of `Set
 
 1. Copy SetupSimulator.sh into your project (these instructions will assume the folder is located in your $PROJECT_ROOT)
 1. Edit your Xcode scheme which runs your tests
-![Edit your Xcode scheme which runs your tests](https://raw.githubusercontent.com/IndieGoGo/SimulatorSetup/master/images/1_EditScheme.png)
+<br/>
+<img src="https://raw.githubusercontent.com/IndieGoGo/SimulatorSetup/master/images/1_EditScheme.png" alt="Edit your Xcode scheme which runs your tests" width="200"/>
 1. Select 'Test from the left column
 1. Click the arrow '>' to expand out the sub-elements of 'Test'
-![Select 'Test from the left column & Click the arrow '>' to expand out the sub-elements of 'Test'](https://raw.githubusercontent.com/IndieGoGo/SimulatorSetup/master/images/2_Test%2BExpand.png)
+<br/>
+<img src="https://raw.githubusercontent.com/IndieGoGo/SimulatorSetup/master/images/2_Test%2BExpand.png" alt="Select 'Test from the left column and Click the arrow to expand out the sub-elements of Test" width="200"/>
 1. Click on 'Pre-actions', then press the plus button '+' then select 'New Run Script Action'
-![Click on 'Pre-actions', then press the plus button '+' then select 'New Run Script Action'](https://raw.githubusercontent.com/IndieGoGo/SimulatorSetup/master/images/3_AddScript.png)
+<br/>
+<img src="https://raw.githubusercontent.com/IndieGoGo/SimulatorSetup/master/images/3_AddScript.png" alt="Click on Pre-actions, then press the plus button then select New Run Script Action" width="200"/>
 1. Replace `Type a script or drag a script file from your workspace to insert its path` with  `"$PROJECT_DIR/SetupSimulator.sh"` ![Replace `Type a script or drag a script file from your workspace to insert its path` with  `"$PROJECT_DIR/SetupSimulator.sh"`](https://raw.githubusercontent.com/IndieGoGo/SimulatorSetup/master/images/4_ScriptConfigured.png)
 1. Press close
 
