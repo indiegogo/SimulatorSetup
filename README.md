@@ -5,9 +5,12 @@ Setup your iOS simulator permissions from previous snapshots
 
 SimulatorSetup has been able to capture and restore the following simulator states:
  - Settings.app Facebook Account information 
- - User Notification permissions (required to show remote or local notifications to the user)
  - Permissions to access Photos, and Contacts
  - Dismissal of the Keyboard emoji information notice
+
+Appears to be broken in iOS8.4+ (for now)
+- User Notification permissions (required to show remote or local notifications to the user)
+ 
 
 'SimulatorSetup' currently supports iOS8.*, but is expected to work on iOS9 with minor modification.
 
