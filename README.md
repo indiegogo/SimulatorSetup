@@ -8,9 +8,8 @@ SimulatorSetup has been able to capture and restore the following simulator stat
  - Permissions to access Photos, and Contacts
  - Dismissal of the Keyboard emoji information notice
 
-Appears to be broken in iOS8.4+ (for now)
+States that can't be pre-configured by SimulatorSettup (Broken as of iOS8.4+):
 - User Notification permissions (required to show remote or local notifications to the user)
- 
 
 'SimulatorSetup' currently supports iOS8.*, but is expected to work on iOS9 with minor modification.
 
